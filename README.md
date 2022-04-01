@@ -8,7 +8,7 @@ TaiShang NFT Protocols 是使用于 TaiShangVerse 及其他场合的 NFT 协议�
 
 TaiShang DAO NFT 协议用于组织治理，NFT URI 是纯粹的链上 SVG。
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0ubtiiqkhj20tm0to75h.jpg" alt="image-20220401164652770" style="zoom:10%;" />
+<img width="269" alt="截屏2022-04-01 下午5 02 03" src="https://user-images.githubusercontent.com/12784118/161231650-c788f694-8572-4bcb-bef0-4048919f1271.png">
 
 URI 中的元素如下：
 
