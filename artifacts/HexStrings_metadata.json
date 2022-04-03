@@ -145,11 +145,11 @@
 			]
 		},
 		"TaiShangVoxel.sol": {
-			"keccak256": "0xbe8b1bf9b792b77affeaab13e3f6c4435cb040d84e7bd64de7011d495a83825a",
+			"keccak256": "0x8ea3bf96297d9c4e16d3c5a6b8283c031e458e48056a8fe1d09f7c0f52f37b36",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ef805d65cb73e6251f5f0ce5829288df1aa318d63d840635eff217242a5163d8",
-				"dweb:/ipfs/QmXqdSVGdSMnRHzRtPQCCb2o3taLNPgJ5GFiLjsyhspQ2o"
+				"bzz-raw://e2909d46759d7dc7c90ebe07cea1394d5a65d311f5c64053e95301e4383e8748",
+				"dweb:/ipfs/QmT6trn7cNzAzJCeBkgZSgJDxVqQU3aWdaMRVpngnr8PZ9"
 			]
 		}
 	},

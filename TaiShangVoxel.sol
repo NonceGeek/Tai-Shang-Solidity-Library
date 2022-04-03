@@ -7,13 +7,16 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 
+// 合约的继承：https://learnblockchain.cn/article/1944
 contract TaiShangVoxel is ERC721Enumerable, Ownable{
 
+    // Using For: https://learnblockchain.cn/docs/solidity/0.6.12/contracts/using-for.html
     using Strings for uint256;
     using HexStrings for uint160;
     using Counters for Counters.Counter;
     Counters.Counter private tokenCounter;
 
+    // maping 类型: https://learnblockchain.cn/2017/12/27/solidity-structs
     mapping (uint256 => string[2]) public tokenURIs;
     mapping (uint256 => address) public creator;
     mapping (uint256 => bool) public verified;
@@ -22,6 +25,8 @@ contract TaiShangVoxel is ERC721Enumerable, Ownable{
         // Tai Shang Voxel
     }
 
+    // 函数可见性：https://learnblockchain.cn/docs/solidity/contracts.html#getter
+    // 修改器：https://learnblockchain.cn/docs/solidity/contracts.html#modifier
     function verify(uint256 tokenId) public onlyOwner{
         // verified by owner
         verified[tokenId] = true;
@@ -29,6 +34,7 @@ contract TaiShangVoxel is ERC721Enumerable, Ownable{
 
     // ============ PUBLIC FUNCTIONS FOR MINTING ============
 
+    // External 会花费更少的gas费用
     function mint(string memory uri, string memory url) external returns (uint256){
         uint256 _tokenId = nextTokenId();
         _safeMint(msg.sender, _tokenId);
@@ -65,6 +71,7 @@ contract TaiShangVoxel is ERC721Enumerable, Ownable{
         string memory image = tokenImage(tokenId);
 
         return
+          // https://learnblockchain.cn/docs/solidity/cheatsheet.html
           string(
               abi.encodePacked(
                 'data:application/json;base64,',
