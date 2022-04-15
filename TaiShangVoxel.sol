@@ -34,7 +34,7 @@ contract TaiShangVoxel is ERC721Enumerable, Ownable{
 
     // ============ PUBLIC FUNCTIONS FOR MINTING ============
 
-    // External 会花费更少的gas费用
+    // external 会花费更少的gas费用
     function mint(string memory uri, string memory url) external returns (uint256){
         uint256 _tokenId = nextTokenId();
         _safeMint(msg.sender, _tokenId);
