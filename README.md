@@ -6,6 +6,18 @@ TaiShang NFT Protocols 是使用于 TaiShangVerse 及其他场合的 NFT 协议�
 
 ## 0x01 DAO NFT Protocol
 
+> Contract on `Polygon Testnet`:
+>
+> https://mumbai.polygonscan.com/address/0xa9674c8c25a22de2a27a3d019f8759774e8e5f08#code
+>
+> Contract on `Moonbeam Mainnet`:
+>
+> https://moonbeam.moonscan.io/address/0xb6FC950C4bC9D1e4652CbEDaB748E8Cdcfe5655F#code
+>
+> See in `Opensea Testnet`:
+>
+> https://testnets.opensea.io/assets/mumbai/0xa9674c8c25a22de2a27a3d019f8759774e8e5f08/1
+
 TaiShang DAO NFT 协议用于组织治理，NFT URI 是纯粹的链上 SVG。
 
 <img width="269" alt="截屏2022-04-01 下午5 02 03" src="https://user-images.githubusercontent.com/12784118/161231650-c788f694-8572-4bcb-bef0-4048919f1271.png">
