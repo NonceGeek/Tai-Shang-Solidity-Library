@@ -74,11 +74,11 @@
 	},
 	"sources": {
 		"examples/mapNFT.sol": {
-			"keccak256": "0xd7c276a78c718e99837bef763cb74dbadc1b2310f0b479ea2ff5b964cb3e34ab",
+			"keccak256": "0xb918a4e931edaa473197a91fe04487ac54e157a05bf0916526584efe10a4c478",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8fc7e763a9c73c6951805e518e8cb8260198fcca08c9b4a6701161b06568c424",
-				"dweb:/ipfs/QmaQMDXiVVt6spDmTY6et95eBPa8PPeHH2KxuKH2dvGLRs"
+				"bzz-raw://0bf6a6cb35cd45df987fc64f025152520c95a5ffca11d302e286a7c9c5a87278",
+				"dweb:/ipfs/QmPsPBLgT3Kfesv9btaCrfWmZFS7W3EWEmof4CbrFqA4We"
 			]
 		}
 	},

@@ -1,10 +1,10 @@
 # Introduction
 
-TaiShang NFT Protocols 是使用于 TaiShangVerse 及其他场合的 NFT 协议。
+Tai Shang Solidity Library 是使用于 TaiShangVerse 及其他场合的合约。
 
-包含如下四种协议：
+包含如下四种基础合约：
 
-## 0x01 DAO NFT Protocol
+## 0x01 DAO NFT Contract
 
 > Contract on `Polygon Testnet`:
 >
@@ -36,17 +36,15 @@ URI 中的元素如下：
 
   通过伪随机生成的六个数字，表示该 Token 的属性，这也是该 Token 能作为角色在元宇宙中使用的原因。
 
-## 0x02 Voxel NFT Protocol
+## 0x02 Normal NFT Contract
 
-// TODO: Description
+普通类型的 NFT 合约，URI 可存在 IPFS 或 Arweave 链上。
 
-## 0x03 Ascii NFT Protocol
+## 0x03 HTML NFT Contract
 
-//  TODO: Description
+URL 类型为 HTML 的合约。
 
-## 0x04 Abstract NFT Protocol
+## 0x04 Abstract NFT Contract
 
-//  TODO: Description
-
-# 相关项目 
+抽象 NFT 合约，图像以 SVG 的形式直接存储于 NFT 中。
 
